@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: radial-gradient(circle, deepskyblue, grey, black);
+height:100vw;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: Courier New
+  
+}
+
+label {
+  color: white;
+  font-family: Courier New;
+  font-size: 20px;
+}
+
+button, input[type="text"] {
+  padding: 5px;
+    font-family: Courier New;
+
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#shopping-list-item {
+  width: 250px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.shopping-list {
+  list-style: none;
+  padding-left: 0;
+  font-family: Courier New;
+
+}
+
+.shopping-list > li {
+  margin-bottom: 20px;
+  border: 1px grey;
+  padding: 20px;
+  font-family: Courier New;
+
+}
+
+.shopping-item {
+  display: block;
+  color: white;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.shopping-item__checked {
+  text-decoration: line-through;
+}
